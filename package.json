@@ -1,0 +1,25 @@
+{
+  "name": "problem-solving-sandbox",
+  "version": "1.0.0",
+  "description": "This repository contains JavaScript solutions to LeetCode problems categorized by difficulty - Easy, Medium, and Hard. Each category contains a set of well-documented solutions to various LeetCode problems.",
+  "main": "LeetCode problems categorized by difficulty - Easy, Medium, and Hard. Each category contains a set of well-documented solutions to various LeetCode problems.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriya-kotturu/problem-solving-sandbox-js.git"
+  },
+  "keywords": [
+    "leetcode",
+    "javascript",
+    "problem-solving"
+  ],
+  "type": "module",
+  "author": "supriyakotturu",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/supriya-kotturu/problem-solving-sandbox-js/issues"
+  },
+  "homepage": "https://github.com/supriya-kotturu/problem-solving-sandbox-js#readme"
+}

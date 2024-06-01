@@ -55,4 +55,24 @@ export class LinkedListLoop extends LinkedList {
 
     return;
   }
+
+  findIntersection(ll2) {
+    // create a set to keep track of the visited nodes.
+    // the firs node in the list which is already in the set is the intersection node
+    const visited = new Set();
+    let current = this.head;
+
+    while (current) {
+      visited.add(current);
+      current = current.next;
+    }
+
+    current = ll2.head;
+    while (current) {
+      if (visited.has(current)) return current;
+      current = current.next;
+    }
+
+    return null;
+  }
 }
